@@ -22,7 +22,7 @@ const Hero = () => {
                  variants={container(0)}
                  initial="hidden"
                  animate="visible"
-                 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-6xl">Om Baviskar</motion.h1>
+                 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl">Om Baviskar</motion.h1>
                 <motion.span
                  whileInView={{opacity: 1,x: 0}}
                  initial={{opacity:0, x: -100}}
@@ -30,7 +30,7 @@ const Hero = () => {
                 // variants={container(0.5)}
                 // initial="hidden"
                 // animate="visible"
-                className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl tracking-tight text-transparent">Front-end and Android Developer</motion.span>
+                className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Web and Android Developer</motion.span>
                 <motion.p 
                 //  whileInView={{opacity: 1,x: 0}}
                 //  initial={{opacity:0, x: -100}}
